@@ -1,5 +1,9 @@
 package designpatterns.creational.factoryMethod;
 
+import designpatterns.creational.factoryMethod.factory.CppDeveloperFactory;
+import designpatterns.creational.factoryMethod.factory.JavaDeveloperFactory;
+import designpatterns.creational.factoryMethod.factory.PhpDeveloperFactory;
+
 public class Program {
     public static void main(String[] args) {
         DeveloperFactory developerFactory =createDeveloperBySpecialty("Java");
